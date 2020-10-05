@@ -1,0 +1,65 @@
+html{
+    background-color: darkslateblue;
+}
+
+head, h1, p{
+    text-align: center;
+    color: white;
+}
+
+
+.grid-img{
+    width: 50%;
+    float: left;
+    display: block;
+}
+
+img{
+    width: 478px;
+    height: 478px;
+    margin-left: 180px;
+}
+
+.grid{
+    width: 50%;
+    float: right;
+    display: block;
+}
+
+.grid-item{
+    width: 500px;
+    background-color: #EF7649;
+    display: flex;
+    margin-bottom: 20px; 
+    /* margin-left: 20px;    */
+}
+
+.grid-item-text{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.grid-item-text h1{
+    text-align: justify;
+    margin-bottom: 0px;
+}
+
+.grid-item-text p{
+    text-align: justify;
+    display: flex;
+    margin-top: 0px;
+}
+
+button{
+    border: 0px;
+    color: whitesmoke;
+    background-color: #4B5256;
+}
+
+footer{
+    margin-top:40%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: whitesmoke;
+}
